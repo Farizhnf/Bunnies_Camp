@@ -1,0 +1,271 @@
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+
+header {
+  background-color: #ffffff;
+  padding: 40px 70px;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header ul .home {
+  /* saya pakai margin right supaya Nav Home berada di kiri sendiri, dengan membuatkannya class sendiri */
+  margin-right: auto;
+  font-weight: bold;
+}
+
+header ul li {
+  margin-left: 20px;
+}
+
+header ul li a {
+  color: #000000; /* warna text */
+  text-decoration: none;
+  transition: background-color 2s ease;
+}
+
+header ul li a:hover {
+  color: #002fff;
+  text-shadow: 0 0 50px #002fff;
+}
+
+/* Ucapan Welcome */
+
+.welcome {
+  /* background: linear-gradient(
+      to top,
+      rgb(255, 255, 255),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)
+    ),
+    url(assets/images/nwjns.jpg); */
+
+  background-image: url(assets/images/nwjns.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  padding: 180px 90px;
+  color: #ffffff; /* buat text nya putih semua */
+}
+
+.welcome p {
+  font-weight: 500;
+  padding: 10px 300px;
+  text-shadow: 0px 0px 50px rgb(0, 0, 0);
+}
+
+.welcome h1 {
+  font-size: 60px;
+  margin: auto;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
+}
+
+.welcome a {
+  background-color: #ffffff;
+  color: #000000;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 40px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.welcome a:hover {
+  background: #ff86c2;
+  box-shadow: 0 0 20px #ff86c2;
+  color: #ffffff;
+}
+
+/* Main */
+
+main {
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.yt a img {
+  border-radius: 8px;
+}
+
+main a {
+  color: #0033a1;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+main h1 {
+  font-size: 35px;
+}
+
+main a:hover {
+  color: #0051ff;
+}
+
+/* article */
+
+.line {
+  border-top: 2px solid rgb(216, 216, 216);
+  border-bottom: 2px solid rgb(216, 216, 216);
+  border-top: 2px solid rgb(216, 216, 216);
+}
+
+.berita-pilihan {
+  padding: 30px 120px 50px;
+  border-top: 2px solid rgb(216, 216, 216);
+}
+
+.laguterbaru {
+  padding: 10px 120px;
+}
+
+.berita-pilihan a img {
+  transition: transform 1s ease;
+}
+
+.berita-pilihan a img:hover {
+  transform: scale(1.01);
+}
+
+.berita-pilihan img {
+  width: 60vh;
+  padding: 0px 40px 0px 0px;
+}
+
+.news {
+  padding: 10px 120px 50px;
+  border-bottom: 2px solid rgb(216, 216, 216);
+}
+
+.article {
+  display: flex;
+  align-items: flex-start;
+  text-align: justify;
+}
+
+.article ol {
+  flex: none;
+}
+
+aside img {
+  width: 31vh;
+  height: 31vh;
+  object-fit: cover;
+  padding: 0px 0px 0px 150px;
+}
+
+/* Merchandise */
+
+.merchandise img {
+  display: block;
+  margin: 0 auto;
+}
+
+.merch {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.foto a img {
+  transition: background-color 0.3s ease;
+  transition: transform 1s ease;
+}
+
+.foto a img:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 10px #cccccc;
+}
+
+.merch h1 {
+  text-align: center;
+}
+
+.merch-container {
+  width: 150vh;
+  display: flex;
+  gap: 20px; /* ini buat jarak antara isi konten ato gambar-nya */
+  justify-content: center;
+}
+
+/* About Newjeans */
+
+.about {
+  padding: 30px 120px 50px;
+  text-align: center;
+}
+
+.about img {
+  width: 30vh;
+}
+
+/* Member nya */
+
+.mem-container {
+  display: flex;
+  flex-wrap: wrap; /* pakai flex wrap supaya isi konten yg terlihat penuh ke kanan, akan diturun kan kebawah */
+  gap: 20px; /* ini buat jarak antara isi konten ato gambar-nya */
+  justify-content: center;
+}
+
+.foto {
+  width: 400px;
+  text-align: center;
+  justify-content: center;
+}
+
+.members {
+  padding-bottom: 50px;
+}
+
+.members h1 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.foto img {
+  max-width: 100%;
+  border-radius: 10px;
+  height: auto;
+}
+
+/* Footer */
+
+footer p {
+  font-size: 10px;
+}
+
+footer {
+  background: #3e3e3e;
+  color: #fff;
+  text-align: center;
+  padding: 10px 10px;
+}
+
+footer .social-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 70px;
+}
+
+footer .social-links a:hover {
+  text-decoration: underline;
+}
