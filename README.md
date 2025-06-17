@@ -1,6 +1,8 @@
 # 🚀 Fanbase Website
 ---
 
+![Tampilan Website](assets/images/ss_web.png)
+
 Whatsup! 👋  
 This small project is one of **Dicoding**'s basic web programming assignments, which is to create a simple website using HTML and CSS programming languages, as well as the terms and conditions provided.
 This is a fan-made website dedicated to the K-pop girl group NewJeans, designed to serve as a digital hub for fans who want to stay connected, informed, and engaged.
