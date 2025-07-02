@@ -13,7 +13,7 @@ This is a fan-made website dedicated to the K-pop girl group NewJeans, designed 
 <ul>
 <li>Featured News: Highlighted and up-to-date news about NewJeans, including comebacks, performances, and public appearances.</li>
 <li>Latest Updates: A news feed containing other relevant articles, updates, and fan activities.</li>
-<li>About NewJeans: A dedicated page introducing the group, including member profiles, debut history, and fun facts.</li>
+<li>About NewJeans: A dedicated page introducing the group, including member profiles.</li>
 <li>Merchandise Section: Showcasing official NewJeans products, albums, and limited-edition merch, with links or previews for fans to explore.</li>
 </ul>
 ---
